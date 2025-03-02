@@ -30,7 +30,7 @@ export default function Home() {
     <div className="max-w-2xl mx-auto p-6 space-y-6">
       {/* Customers Section */}
       <div className="bg-white shadow-lg rounded-2xl p-6">
-        <h2 className="text-xl font-bold text-gray-800 mb-4">Customers</h2>
+        <h2 className="text-xl font-bold text-gray-800 mb-4">Dashboard</h2>
         <ul className="divide-y divide-gray-200">
           {customers?.map((customer) => (
             <li
